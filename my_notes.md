@@ -4,7 +4,7 @@
 
 You can create a brand new file (for example, git_guide.txt or steps.md) so it sits neatly in your repository files section.
 
-Create and open the new file in your terminal:```nano my_notes.txt```
+##Create and open the new file in your terminal:```nano my_notes.txt```
 
 This repository contains my study materials and notes on how to link a local terminal to GitHub.
 
@@ -41,7 +41,7 @@ Every time I write new code or update these notes, I run these three commands in
 
 Save and close the file by pressing Ctrl + O, then Enter, then Ctrl + X.
 
-Push it to GitHub using your standard routine:
+##Push it to GitHub using your standard routine:
 ```git add my_notes.txt
 git commit -m "Added my personal setup steps guide"
 git push```
