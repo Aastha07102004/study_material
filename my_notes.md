@@ -4,8 +4,12 @@
 
 You can create a brand new file (for example, git_guide.txt or steps.md) so it sits neatly in your repository files section.
 
+<<<<<<< HEAD
 ##Create and open the new file in your terminal:
              ```nano my_notes.md```
+=======
+##Create and open the new file in your terminal:```nano my_notes.txt```
+>>>>>>> a0b6d9f18c4099f015e302bbb10f2c00ead2b938
 
 This repository contains my study materials and notes on how to link a local terminal to GitHub.
 
@@ -38,6 +42,7 @@ in the MY_URL section  we have to paste the link which we copied earlier
 Every time I write new code or update these notes, I run these three commands in my terminal:
 1. `git add .` (Stages the changes)
 2. `git commit -m "Your update message"` (Saves a snapshot)
+<<<<<<< HEAD
 3. `git push -u origin main` (Uploads it to GitHub)
 
 when this showed some error then type ```echo "study material" >my_notes.md```
@@ -48,8 +53,27 @@ when this showed some error then type ```echo "study material" >my_notes.md```
 after this ```nano my_notes.md```
 
 Save and close the file inside nano we do it  by pressing Ctrl + O, then Enter, then Ctrl + X.
+=======
+3. `git push` (Uploads it to GitHub)
+
+Save and close the file by pressing Ctrl + O, then Enter, then Ctrl + X.
+>>>>>>> a0b6d9f18c4099f015e302bbb10f2c00ead2b938
 
 ##Push it to GitHub using your standard routine:
 ```git add my_notes.txt
 git commit -m "Added my personal setup steps guide"
 git push```
+
+
+Part 1: Your Daily Workflow (Open and Edit)
+Whenever you open your computer to continue working, run these commands in order:
+Step 1: Open your repository folder ```cd ~/Desktop/study_material```
+Step 2: Open and edit your file in Nano ```nano my_notes.md```
+(Make your edits, type your new notes, or fix your code here).
+Step 3: Save and Exit Nano Press Ctrl + O then press Enter to save your changes.Press Ctrl + X to exit the Nano editor screen.
+
+Part 2: Saving Your Changes to GitHub 
+Once you are done editing and want your changes to show up on the GitHub website, run these three commands in your terminal one after another:
+Step 1: Stage all your modified text ```git add .```
+Step 2: Write a descriptive save note ```git commit -m "Updated my notes"```
+Step 3: Send the changes safely up to your online profile ```git push -u origin main --force```
