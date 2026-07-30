@@ -48,20 +48,20 @@ after this ```nano my_notes.md```
 
 Save and close the file inside nano we do it  by pressing Ctrl + O, then Enter, then Ctrl + X.
 
-##Push it to GitHub using your standard routine:
+## Push it to GitHub using your standard routine:
 ```git add my_notes.txt
 git commit -m "Added my personal setup steps guide"
 git push```
 
 
-##Part 1: Your Daily Workflow (Open and Edit)
+## Part 1: Your Daily Workflow (Open and Edit)
 Whenever you open your computer to continue working, run these commands in order:
 Step 1: Open your repository folder ```cd ~/Desktop/study_material```
 Step 2: Open and edit your file in Nano ```nano my_notes.md```
 (Make your edits, type your new notes, or fix your code here).
 Step 3: Save and Exit Nano Press Ctrl + O then press Enter to save your changes.Press Ctrl + X to exit the Nano editor screen.
 
-##Part 2: Saving Your Changes to GitHub 
+## Part 2: Saving Your Changes to GitHub 
 Once you are done editing and want your changes to show up on the GitHub website, run these three commands in your terminal one after another:
 Step 1: Stage all your modified text ```git add .```
 Step 2: Write a descriptive save note ```git commit -m "Updated my notes"```
