@@ -38,12 +38,12 @@ Every time I write new code or update these notes, I run these three commands in
 2. `git commit -m "Your update message"` (Saves a snapshot)
 3. `git push -u origin main` (Uploads it to GitHub)
 
-when this showed some error then type ```echo "study material" >my_notes.md```
+when this showed some error then type  `echo "study material" >my_notes.md`
  `git add .` (Stages the changes)
  `git commit -m "Your update message"` (Saves a snapshot)
  `git push -u origin main` (Uploads it to GitHub)
 
-after this ```nano my_notes.md```
+after this `nano my_notes.md`
 
 Save and close the file inside nano we do it  by pressing Ctrl + O, then Enter, then Ctrl + X.
 
@@ -55,13 +55,13 @@ git push```
 
 ## Part 1: Your Daily Workflow (Open and Edit)
 Whenever you open your computer to continue working, run these commands in order:
-Step 1: Open your repository folder ```cd ~/Desktop/study_material```
-Step 2: Open and edit your file in Nano ```nano my_notes.md```
+Step 1: Open your repository folder `cd ~/Desktop/study_material`
+Step 2: Open and edit your file in Nano `nano my_notes.md`
 (Make your edits, type your new notes, or fix your code here).
 Step 3: Save and Exit Nano Press Ctrl + O then press Enter to save your changes.Press Ctrl + X to exit the Nano editor screen.
 
 ## Part 2: Saving Your Changes to GitHub 
 Once you are done editing and want your changes to show up on the GitHub website, run these three commands in your terminal one after another:
-Step 1: Stage all your modified text ```git add .```
-Step 2: Write a descriptive save note ```git commit -m "Updated my notes"```
-Step 3: Send the changes safely up to your online profile ```git push -u origin main --force```
+Step 1: Stage all your modified text `git add .`
+Step 2: Write a descriptive save note `git commit -m "Updated my notes"`
+Step 3: Send the changes safely up to your online profile `git push -u origin main --force`
