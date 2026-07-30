@@ -36,7 +36,6 @@ in the <MY_URL> section  we have to paste the link which we copied earlier
 Every time I write new code or update these notes, I run these three commands in my terminal:
 1. `git add .` (Stages the changes)
 2. `git commit -m "Your update message"` (Saves a snapshot)
-<<<<<<< HEAD
 3. `git push -u origin main` (Uploads it to GitHub)
 
 when this showed some error then type ```echo "study material" >my_notes.md```
