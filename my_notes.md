@@ -35,6 +35,8 @@ If this shows an error, use `echo "study material" > my_notes.md` to reset, then
 Open your file anytime with `nano my_notes.md`.
 Save and close the file inside nano by pressing `Ctrl + O`, then `Enter`, then `Ctrl + X`.
 
+if you want to edit the existing repo where the notes is taken in nano so to open the existing nano and edit the content in it these are the steps
+ 
 ## Part 1: Your Daily Workflow (Open and Edit)
 Whenever you open your computer to continue working, run these commands in order:
 * **Step 1:** Open your repository folder: `cd ~/Desktop/study_material`
